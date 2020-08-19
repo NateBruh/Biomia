@@ -1,0 +1,46 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BiomiaBaseTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BiomiaPlantsTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabbiomiaplantstab": "Biomia Plants",
+      "itemGroup.tabbiomiabasetab": "Biomia Base"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "biomia",
+    "modName": "Biomia",
+    "version": "1.0.0",
+    "author": "naten, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "net.mcreator.biomia",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

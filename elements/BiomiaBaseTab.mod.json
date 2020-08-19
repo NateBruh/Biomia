@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Biomia Base",
+    "icon": {
+      "value": "Blocks.SWEET_BERRY_BUSH"
+    },
+    "showSearch": true
+  }
+}
