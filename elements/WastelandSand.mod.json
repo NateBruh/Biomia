@@ -29,11 +29,11 @@
       "value": "CUSTOM:BiomiaBaseTab"
     },
     "destroyTool": "Not specified",
-    "affectedBySilkTouch": true,
+    "affectedBySilkTouch": false,
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -67,7 +67,7 @@
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 1.0,
-    "particleAmount": 1,
+    "particleAmount": 0,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

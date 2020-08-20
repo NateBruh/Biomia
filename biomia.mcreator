@@ -87,8 +87,11 @@
       "itemGroup.tabbiomiaplantstab": "Biomia Plants",
       "tile.richforestgrassblock.name": "Rich Forest Grass Block",
       "item.castle.name": "Music Disc",
+      "tile.wastelandstandstone.name": "Wasteland Standstone",
       "itemGroup.tabbiomiabasetab": "Biomia Base",
-      "item.record.castle.desc": "Clarx \u0026 Harddope - Castle"
+      "item.record.castle.desc": "Clarx \u0026 Harddope - Castle",
+      "tile.richforestdirt.name": "Rich Forest Dirt",
+      "tile.wastelandsand.name": "Wasteland Sand"
     }
   },
   "workspaceSettings": {
