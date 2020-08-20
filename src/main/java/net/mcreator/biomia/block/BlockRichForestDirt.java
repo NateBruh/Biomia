@@ -18,7 +18,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
-import net.minecraft.init.Blocks;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
@@ -71,24 +70,6 @@ public class BlockRichForestDirt extends ElementsBiomia.ModElement {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;
-					require = Blocks.DIRT.getStateFromMeta(0);
-					try {
-						if ((blockAt.getBlock() == require.getBlock())
-								&& (blockAt.getBlock().getMetaFromState(blockAt) == require.getBlock().getMetaFromState(require)))
-							blockCriteria = true;
-					} catch (Exception e) {
-						if (blockAt.getBlock() == require.getBlock())
-							blockCriteria = true;
-					}
-					require = Blocks.STONE.getStateFromMeta(0);
-					try {
-						if ((blockAt.getBlock() == require.getBlock())
-								&& (blockAt.getBlock().getMetaFromState(blockAt) == require.getBlock().getMetaFromState(require)))
-							blockCriteria = true;
-					} catch (Exception e) {
-						if (blockAt.getBlock() == require.getBlock())
-							blockCriteria = true;
-					}
 					return blockCriteria;
 				}
 			})).generate(world, random, new BlockPos(x, y, z));

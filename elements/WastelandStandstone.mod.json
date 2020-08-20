@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "richforest_grassbottom",
-    "textureTop": "richforest_grassbottom",
-    "textureLeft": "richforest_grassbottom",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "wasteland_sandst0ne",
+    "textureTop": "wasteland_sandst0ne",
+    "textureLeft": "wasteland_sandst0ne",
+    "textureFront": "wasteland_sandst0ne",
+    "textureRight": "wasteland_sandst0ne",
+    "textureBack": "wasteland_sandst0ne",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Rich Forest Dirt",
+    "name": "Wasteland Standstone",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -28,7 +28,7 @@
     "creativeTab": {
       "value": "CUSTOM:BiomiaBaseTab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
@@ -36,11 +36,11 @@
     "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": true,
+    "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "EARTH"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -82,13 +82,13 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:RichForest"
+        "value": "CUSTOM:Wasteland"
       }
     ],
     "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 128
+    "maxGenerateHeight": 5
   }
 }

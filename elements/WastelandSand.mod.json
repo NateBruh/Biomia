@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "richforest_grassbottom",
-    "textureTop": "richforest_grassbottom",
-    "textureLeft": "richforest_grassbottom",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "wasteland_sand",
+    "textureTop": "wasteland_sand",
+    "textureLeft": "wasteland_sand",
+    "textureFront": "wasteland_sand",
+    "textureRight": "wasteland_sand",
+    "textureBack": "wasteland_sand",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -20,27 +20,27 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Rich Forest Dirt",
+    "name": "Wasteland Sand",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 0.75,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "creativeTab": {
       "value": "CUSTOM:BiomiaBaseTab"
     },
     "destroyTool": "Not specified",
-    "affectedBySilkTouch": true,
+    "affectedBySilkTouch": false,
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": true,
+    "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "EARTH"
+      "value": "SAND"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -53,21 +53,21 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "SAND"
     },
     "luminance": 0.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CLOUD"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningRadious": 1.0,
+    "particleAmount": 0,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -82,13 +82,13 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:RichForest"
+        "value": "CUSTOM:Wasteland"
       }
     ],
     "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 128
+    "maxGenerateHeight": 25
   }
 }
