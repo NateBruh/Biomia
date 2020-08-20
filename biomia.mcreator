@@ -40,6 +40,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "RichForestDirt",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -56,7 +64,8 @@
       "tile.richforestgrassblock.name": "Rich Forest Grass Block",
       "item.castle.name": "Music Disc",
       "itemGroup.tabbiomiabasetab": "Biomia Base",
-      "item.record.castle.desc": "Clarx \u0026 Harddope - Castle"
+      "item.record.castle.desc": "Clarx \u0026 Harddope - Castle",
+      "tile.richforestdirt.name": "Rich Forest Dirt"
     }
   },
   "workspaceSettings": {

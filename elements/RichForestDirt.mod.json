@@ -3,13 +3,13 @@
   "_type": "block",
   "definition": {
     "texture": "richforest_grassbottom",
-    "textureTop": "richforest_grasstop",
-    "textureLeft": "richforest_grassside",
-    "textureFront": "richforest_grassside",
-    "textureRight": "richforest_grassside",
-    "textureBack": "richforest_grassside",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "textureTop": "richforest_grassbottom",
+    "textureLeft": "richforest_grassbottom",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Rich Forest Grass Block",
+    "name": "Rich Forest Dirt",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -31,7 +31,7 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:RichForestDirt"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "GRASS"
+      "value": "EARTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WET_GRASS"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -80,15 +80,22 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:RichForest"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "Blocks.GRASS"
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "Blocks.STONE#0"
       }
     ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 128
   }
 }
