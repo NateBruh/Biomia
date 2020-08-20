@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "castlerecord",
+    "name": "Clarx & Harddope - Castle",
+    "description": "Clarx & Harddope - Castle",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:castle"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

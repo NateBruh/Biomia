@@ -54,6 +54,7 @@ public class ElementsBiomia implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ElementsBiomia() {
+		sounds.put(new ResourceLocation("biomia", "castle"), new net.minecraft.util.SoundEvent(new ResourceLocation("biomia", "castle")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

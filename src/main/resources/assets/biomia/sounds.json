@@ -1,1 +1,11 @@
-{}
+{
+  "castle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "biomia:larx-_-arddope-astle-_-elease_",
+        "stream": true
+      }
+    ]
+  }
+}

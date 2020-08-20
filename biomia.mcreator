@@ -16,14 +16,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Castle",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "castle",
+      "file": "larx-_-arddope-astle-_-elease_",
+      "category": "record"
+    }
+  ],
   "language_map": {
     "en_us": {
       "itemGroup.tabbiomiaplantstab": "Biomia Plants",
-      "itemGroup.tabbiomiabasetab": "Biomia Base"
+      "item.castle.name": "Clarx \u0026 Harddope - Castle",
+      "itemGroup.tabbiomiabasetab": "Biomia Base",
+      "item.record.castle.desc": "Clarx \u0026 Harddope - Castle"
     }
   },
   "workspaceSettings": {
