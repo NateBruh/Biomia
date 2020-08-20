@@ -1,0 +1,66 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Wasteland",
+    "groundBlock": {
+      "value": "CUSTOM:WastelandSand"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "generateLakes": false,
+    "treeType": 0,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "customColors": false,
+    "airColor": {
+      "value": -5916161,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -8816263,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -8416319,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 0,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 1,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 2,
+    "deadBushesPerChunk": 4,
+    "rainingPossibility": 0.25,
+    "temperature": 1.0,
+    "baseHeight": 0.1,
+    "heightVariation": 0.1,
+    "spawnBiome": true,
+    "biomeWeight": 15,
+    "biomeType": "DESERT",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnList": []
+  }
+}

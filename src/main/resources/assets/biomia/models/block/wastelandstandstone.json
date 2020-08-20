@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomia:blocks/wasteland_sandst0ne",
+    "up": "biomia:blocks/wasteland_sandst0ne",
+    "north": "biomia:blocks/wasteland_sandst0ne",
+    "east": "biomia:blocks/wasteland_sandst0ne",
+    "south": "biomia:blocks/wasteland_sandst0ne",
+    "west": "biomia:blocks/wasteland_sandst0ne",
+    "particle": "biomia:blocks/wasteland_sandst0ne"
+  }
+}
