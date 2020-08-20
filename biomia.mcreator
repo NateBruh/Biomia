@@ -19,13 +19,7 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [
-    {
-      "name": "freeddesire",
-      "file": "renchill-ft.-ndiiana-reed-from-esire-_fficial-ideo_",
-      "category": "master"
-    }
-  ],
+  "sound_elements": [],
   "language_map": {
     "en_us": {
       "itemGroup.tabbiomiaplantstab": "Biomia Plants",
