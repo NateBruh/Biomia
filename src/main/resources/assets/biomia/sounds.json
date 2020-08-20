@@ -1,1 +1,11 @@
-{}
+{
+  "freeddesire": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "biomia:renchill-ft.-ndiiana-reed-from-esire-_fficial-ideo_",
+        "stream": false
+      }
+    ]
+  }
+}

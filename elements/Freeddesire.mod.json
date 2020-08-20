@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "freeddesire",
+    "name": "Freed from Desire",
+    "description": "Drenchill ft. Indiiana - Freed from Desire",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:freeddesire"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

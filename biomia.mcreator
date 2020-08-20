@@ -16,14 +16,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Freeddesire",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "freeddesire",
+      "file": "renchill-ft.-ndiiana-reed-from-esire-_fficial-ideo_",
+      "category": "master"
+    }
+  ],
   "language_map": {
     "en_us": {
       "itemGroup.tabbiomiaplantstab": "Biomia Plants",
-      "itemGroup.tabbiomiabasetab": "Biomia Base"
+      "itemGroup.tabbiomiabasetab": "Biomia Base",
+      "item.record.freeddesire.desc": "Drenchill ft. Indiiana - Freed from Desire",
+      "item.freeddesire.name": "Freed from Desire"
     }
   },
   "workspaceSettings": {
