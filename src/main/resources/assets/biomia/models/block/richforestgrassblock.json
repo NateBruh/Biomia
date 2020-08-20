@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomia:blocks/dirt",
+    "up": "biomia:blocks/orest_rass_lock_op",
+    "north": "biomia:blocks/orest_rass_lock_ide",
+    "east": "biomia:blocks/orest_rass_lock_ide",
+    "south": "biomia:blocks/orest_rass_lock_ide",
+    "west": "biomia:blocks/orest_rass_lock_ide",
+    "particle": "biomia:blocks/dirt"
+  }
+}
