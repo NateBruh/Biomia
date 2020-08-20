@@ -28,11 +28,11 @@
     },
     "customColors": true,
     "airColor": {
-      "value": -6710887,
+      "value": -3342388,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -16764160,
+      "value": -16751104,
       "falpha": 0.0
     },
     "waterColor": {
@@ -41,7 +41,7 @@
     },
     "treesPerChunk": 5,
     "grassPerChunk": 4,
-    "flowersPerChunk": 9,
+    "flowersPerChunk": 11,
     "mushroomsPerChunk": 4,
     "bigMushroomsChunk": 2,
     "sandPathcesPerChunk": 2,
@@ -51,7 +51,7 @@
     "deadBushesPerChunk": 0,
     "rainingPossibility": 0.6,
     "temperature": 0.7,
-    "baseHeight": 0.13,
+    "baseHeight": 0.049999999999999996,
     "heightVariation": 0.2,
     "spawnBiome": true,
     "biomeWeight": 100,

@@ -37,14 +37,14 @@ public class BiomeRichForest extends ElementsBiomia.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Rich Forest").setRainfall(0.6F).setBaseHeight(0.13F).setWaterColor(-16751104).setHeightVariation(0.2F)
+			super(new Biome.BiomeProperties("Rich Forest").setRainfall(0.6F).setBaseHeight(0.05F).setWaterColor(-16751104).setHeightVariation(0.2F)
 					.setTemperature(0.7F));
 			setRegistryName("richforest");
 			topBlock = BlockRichForestGrassBlock.block.getDefaultState();
 			fillerBlock = BlockRichForestDirt.block.getDefaultState();
 			decorator.generateFalls = true;
 			decorator.treesPerChunk = 5;
-			decorator.flowersPerChunk = 9;
+			decorator.flowersPerChunk = 11;
 			decorator.grassPerChunk = 4;
 			decorator.deadBushPerChunk = 0;
 			decorator.mushroomsPerChunk = 4;
@@ -62,19 +62,19 @@ public class BiomeRichForest extends ElementsBiomia.ModElement {
 		@SideOnly(Side.CLIENT)
 		@Override
 		public int getGrassColorAtPos(BlockPos pos) {
-			return -16764160;
+			return -16751104;
 		}
 
 		@SideOnly(Side.CLIENT)
 		@Override
 		public int getFoliageColorAtPos(BlockPos pos) {
-			return -16764160;
+			return -16751104;
 		}
 
 		@SideOnly(Side.CLIENT)
 		@Override
 		public int getSkyColorByTemp(float currentTemperature) {
-			return -6710887;
+			return -3342388;
 		}
 
 		@Override

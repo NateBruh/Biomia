@@ -48,6 +48,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "BlueRose",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -63,6 +71,7 @@
       "itemGroup.tabbiomiaplantstab": "Biomia Plants",
       "tile.richforestgrassblock.name": "Rich Forest Grass Block",
       "item.castle.name": "Music Disc",
+      "tile.bluerose.name": "Blue Rose",
       "itemGroup.tabbiomiabasetab": "Biomia Base",
       "item.record.castle.desc": "Clarx \u0026 Harddope - Castle",
       "tile.richforestdirt.name": "Rich Forest Dirt"
