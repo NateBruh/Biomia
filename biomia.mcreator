@@ -42,14 +42,6 @@
       "ids": {}
     },
     {
-      "name": "WastelandSand",
-      "type": "block",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Wasteland",
       "type": "biome",
       "sortid": 7,
@@ -58,9 +50,25 @@
       "ids": {}
     },
     {
+      "name": "WastelandSand",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "WastelandStandstone",
       "type": "block",
       "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RichForestDirt",
+      "type": "block",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -79,10 +87,8 @@
       "itemGroup.tabbiomiaplantstab": "Biomia Plants",
       "tile.richforestgrassblock.name": "Rich Forest Grass Block",
       "item.castle.name": "Music Disc",
-      "tile.wastelandstandstone.name": "Wasteland Standstone",
       "itemGroup.tabbiomiabasetab": "Biomia Base",
-      "item.record.castle.desc": "Clarx \u0026 Harddope - Castle",
-      "tile.wastelandsand.name": "Wasteland Sand"
+      "item.record.castle.desc": "Clarx \u0026 Harddope - Castle"
     }
   },
   "workspaceSettings": {

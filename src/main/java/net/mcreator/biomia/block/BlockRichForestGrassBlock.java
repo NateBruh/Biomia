@@ -93,7 +93,7 @@ public class BlockRichForestGrassBlock extends ElementsBiomia.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(Blocks.DIRT, (int) (1), 0));
+			drops.add(new ItemStack(BlockRichForestDirt.block, (int) (1)));
 		}
 	}
 }

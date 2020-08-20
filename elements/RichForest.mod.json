@@ -4,10 +4,10 @@
   "definition": {
     "name": "Rich Forest",
     "groundBlock": {
-      "value": "CUSTOM:WastelandGrassblock"
+      "value": "CUSTOM:RichForestGrassBlock"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIRT#0"
+      "value": "CUSTOM:RichForestDirt"
     },
     "generateLakes": true,
     "treeType": 0,
@@ -28,37 +28,37 @@
     },
     "customColors": true,
     "airColor": {
-      "value": -5916161,
+      "value": -6710887,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -13261999,
+      "value": -16764160,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -14325985,
+      "value": -16751104,
       "falpha": 0.0
     },
-    "treesPerChunk": 3,
+    "treesPerChunk": 5,
     "grassPerChunk": 4,
-    "flowersPerChunk": 4,
-    "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 0,
-    "sandPathcesPerChunk": 0,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
+    "flowersPerChunk": 9,
+    "mushroomsPerChunk": 4,
+    "bigMushroomsChunk": 2,
+    "sandPathcesPerChunk": 2,
+    "gravelPatchesPerChunk": 2,
+    "reedsPerChunk": 2,
     "cactiPerChunk": 0,
     "deadBushesPerChunk": 0,
-    "rainingPossibility": 0.5,
-    "temperature": 0.5,
-    "baseHeight": 0.1,
+    "rainingPossibility": 0.6,
+    "temperature": 0.7,
+    "baseHeight": 0.13,
     "heightVariation": 0.2,
     "spawnBiome": true,
-    "biomeWeight": 10,
+    "biomeWeight": 100,
     "biomeType": "WARM",
     "biomeCategory": "NONE",
     "parent": {
-      "value": "No parent"
+      "value": "forest"
     },
     "biomeDictionaryTypes": [],
     "spawnList": []

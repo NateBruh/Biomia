@@ -5,7 +5,7 @@
     "up": "biomia:blocks/richforest_grasstop",
     "north": "biomia:blocks/richforest_grassside",
     "east": "biomia:blocks/richforest_grassside",
-    "south": "biomia:blocks/forestdense_grassside",
+    "south": "biomia:blocks/richforest_grassside",
     "west": "biomia:blocks/richforest_grassside",
     "particle": "biomia:blocks/richforest_grassbottom"
   }
