@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "biomia:blocks/lue_ose",
+    "particle": "biomia:blocks/lue_ose"
+  }
+}
